@@ -37,5 +37,3 @@ console.log(myArray2)
 
 ///////
 
-
-

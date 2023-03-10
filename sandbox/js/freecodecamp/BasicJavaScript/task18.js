@@ -23,6 +23,18 @@ for(let i=1; i<6; i++){
 console.log(myArray1)
 // Only change code below this line
 
+/////// Нечетные числа в массиве
+
+
+// Setup
+const myArray2 = [];
+
+for (let i = 1; i < 10; i +=2){
+  myArray2.push(i);
+}
+console.log(myArray2)
+// Only change code below this line
+
 ///////
 
 

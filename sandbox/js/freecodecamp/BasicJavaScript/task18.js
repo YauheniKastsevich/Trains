@@ -35,5 +35,31 @@ for (let i = 1; i < 10; i +=2){
 console.log(myArray2)
 // Only change code below this line
 
+///////for убывание
+
+// Setup
+const myArray3 = [];
+for(let i=9; i>0; i-=2){
+  myArray3.push(i);
+}
+
+// Only change code below this line
+
+
+//////перебор элементов массива
+
+
+// Setup
+const myArr4 = [2, 3, 4, 5, 6];
+let total = 0;
+
+for(let i = 0; i < myArr4.length; i++){
+total += myArr4[i];
+};
+
+
+
+// Only change code below this line
+
 ///////
 

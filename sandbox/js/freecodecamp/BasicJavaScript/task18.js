@@ -79,5 +79,29 @@ for(let i=0; i<arr.length; i++){
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 
+////// do while
+
+// Setup
+const myArray5 = [];
+let ii = 10;
+
+// Only change code below this line
+do {
+  myArray5.push(ii);
+  ii++;
+} while (ii<10);
+
+////// рекурсия
+
+function sum(arr, n) {
+  // Only change code below this line
+if (n == 0){
+  return 0;
+}else{
+  return sum(arr,n-1)+arr[n-1];
+}
+  // Only change code above this line
+}
+
 //////
 

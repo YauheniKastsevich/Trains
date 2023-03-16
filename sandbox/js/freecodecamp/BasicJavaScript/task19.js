@@ -78,9 +78,14 @@ function countdown(n) {
 console.log(countdown(5));
 // Only change code above this line
 
-//////
+//////Use Recursion to Create a Range of Numbers
 
 
+function rangeOfNumbers(startNum, endNum) {
+  
+  return startNum <= endNum ? [startNum].concat(rangeOfNumbers(startNum+1, endNum)) : []
+}
+console.log(rangeOfNumbers(5, 10));
 
 
 //////
